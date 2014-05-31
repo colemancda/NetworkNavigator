@@ -5,13 +5,13 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>763EAD36-D5A0-4A38-A4A4-DDF2EA9F0615</string>
+	<string>8FD58BCA-C553-41AD-B2FD-5F3E49C5A08B</string>
 	<key>IDESourceControlProjectName</key>
 	<string>NetworkNavigator</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>9268576F-8B40-4286-9BC3-66635E999D3E</key>
-		<string>https://github.com/colemancda/CocoaAsyncSocket.git</string>
+		<key>22BD6EB1-426E-416C-8BF2-000FE94F7E55</key>
+		<string>https://github.com/robbiehanson/CocoaHTTPServer.git</string>
 		<key>A58D0A0C-D416-4EAE-9D1B-C11F99ECC23D</key>
 		<string>https://github.com/colemancda/NetworkNavigator.git</string>
 	</dict>
@@ -19,8 +19,8 @@
 	<string>NetworkNavigator/NetworkNavigator.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>9268576F-8B40-4286-9BC3-66635E999D3E</key>
-		<string>../../../NetworkSceneGraph/NetworkSceneGraph/Dependencies/NetworkObjects/Dependencies/CocoaAsyncSocket</string>
+		<key>22BD6EB1-426E-416C-8BF2-000FE94F7E55</key>
+		<string>../../../NetworkSceneGraph/NetworkSceneGraph/Dependencies/NetworkObjects/Dependencies/CocoaHTTPServer</string>
 		<key>A58D0A0C-D416-4EAE-9D1B-C11F99ECC23D</key>
 		<string>../../..</string>
 	</dict>
@@ -36,9 +36,9 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>9268576F-8B40-4286-9BC3-66635E999D3E</string>
+			<string>22BD6EB1-426E-416C-8BF2-000FE94F7E55</string>
 			<key>IDESourceControlWCCName</key>
-			<string>CocoaAsyncSocket</string>
+			<string>CocoaHTTPServer</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>

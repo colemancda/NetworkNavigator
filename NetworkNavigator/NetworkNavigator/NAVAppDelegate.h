@@ -1,5 +1,5 @@
 //
-//  main.m
+//  NAVAppDelegate.h
 //  NetworkNavigator
 //
 //  Created by Alsey Coleman Miller on 5/31/14.
@@ -8,7 +8,8 @@
 
 #import <Cocoa/Cocoa.h>
 
-int main(int argc, const char * argv[])
-{
-    return NSApplicationMain(argc, argv);
-}
+@interface NAVAppDelegate : NSObject <NSApplicationDelegate>
+
+@property (assign) IBOutlet NSWindow *window;
+
+@end

@@ -7,341 +7,323 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6EAC08E519398310008E7B84 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EAC08E419398310008E7B84 /* Cocoa.framework */; };
-		6EAC08EF19398310008E7B84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EAC08ED19398310008E7B84 /* InfoPlist.strings */; };
-		6EAC08F119398310008E7B84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAC08F019398310008E7B84 /* main.m */; };
-		6EAC08F519398310008E7B84 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6EAC08F319398310008E7B84 /* Credits.rtf */; };
-		6EAC08F819398310008E7B84 /* NAVDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAC08F719398310008E7B84 /* NAVDocument.m */; };
-		6EAC08FB19398310008E7B84 /* NAVDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EAC08F919398310008E7B84 /* NAVDocument.xib */; };
-		6EAC08FE19398310008E7B84 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EAC08FC19398310008E7B84 /* MainMenu.xib */; };
-		6EAC090019398310008E7B84 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EAC08FF19398310008E7B84 /* Images.xcassets */; };
-		6EAC090719398310008E7B84 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EAC090619398310008E7B84 /* XCTest.framework */; };
-		6EAC090819398310008E7B84 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EAC08E419398310008E7B84 /* Cocoa.framework */; };
-		6EAC091019398310008E7B84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EAC090E19398310008E7B84 /* InfoPlist.strings */; };
-		6EAC091219398310008E7B84 /* NetworkNavigatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAC091119398310008E7B84 /* NetworkNavigatorTests.m */; };
-		6EAC092719398447008E7B84 /* NetworkSceneGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EAC092219398421008E7B84 /* NetworkSceneGraph.framework */; };
-		6EAC09381939884A008E7B84 /* NetworkSceneGraph.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6EAC092219398421008E7B84 /* NetworkSceneGraph.framework */; };
-		6EAC095519398BD6008E7B84 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EAC095419398BD6008E7B84 /* SceneKit.framework */; };
-		6EAC09591939931D008E7B84 /* NAVStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAC09581939931D008E7B84 /* NAVStore.m */; };
-		6EAC095A1939931D008E7B84 /* NAVStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAC09581939931D008E7B84 /* NAVStore.m */; };
-		6EAC09701939A7F3008E7B84 /* NetworkObjects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EAC0948193989A2008E7B84 /* NetworkObjects.framework */; };
-		6EAC09711939A7FB008E7B84 /* NetworkObjects.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6EAC0948193989A2008E7B84 /* NetworkObjects.framework */; };
+		6E3411BA193A75FF0090BCE6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3411B9193A75FF0090BCE6 /* Cocoa.framework */; };
+		6E3411C4193A75FF0090BCE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E3411C2193A75FF0090BCE6 /* InfoPlist.strings */; };
+		6E3411C6193A75FF0090BCE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3411C5193A75FF0090BCE6 /* main.m */; };
+		6E3411CA193A75FF0090BCE6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6E3411C8193A75FF0090BCE6 /* Credits.rtf */; };
+		6E3411CD193A75FF0090BCE6 /* NAVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3411CC193A75FF0090BCE6 /* NAVAppDelegate.m */; };
+		6E3411D0193A75FF0090BCE6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E3411CE193A75FF0090BCE6 /* MainMenu.xib */; };
+		6E3411D2193A75FF0090BCE6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E3411D1193A75FF0090BCE6 /* Images.xcassets */; };
+		6E3411D9193A75FF0090BCE6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3411D8193A75FF0090BCE6 /* XCTest.framework */; };
+		6E3411DA193A75FF0090BCE6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3411B9193A75FF0090BCE6 /* Cocoa.framework */; };
+		6E3411E2193A75FF0090BCE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E3411E0193A75FF0090BCE6 /* InfoPlist.strings */; };
+		6E3411E4193A75FF0090BCE6 /* NetworkNavigatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3411E3193A75FF0090BCE6 /* NetworkNavigatorTests.m */; };
+		6EF2F344193A777100DC322F /* NetworkSceneGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF2F341193A774600DC322F /* NetworkSceneGraph.framework */; };
+		6EF2F345193A778F00DC322F /* NetworkObjects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E341201193A76650090BCE6 /* NetworkObjects.framework */; };
+		6EF2F347193A779900DC322F /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF2F346193A779900DC322F /* SceneKit.framework */; };
+		6EF2F34C193A77B200DC322F /* NetworkObjects.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6E341201193A76650090BCE6 /* NetworkObjects.framework */; };
+		6EF2F34D193A77BB00DC322F /* NetworkSceneGraph.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6EF2F341193A774600DC322F /* NetworkSceneGraph.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6EAC090919398310008E7B84 /* PBXContainerItemProxy */ = {
+		6E3411DB193A75FF0090BCE6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6EAC08D919398310008E7B84 /* Project object */;
+			containerPortal = 6E3411AE193A75FF0090BCE6 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6EAC08E019398310008E7B84;
+			remoteGlobalIDString = 6E3411B5193A75FF0090BCE6;
 			remoteInfo = NetworkNavigator;
 		};
-		6EAC092119398421008E7B84 /* PBXContainerItemProxy */ = {
+		6E341200193A76650090BCE6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6EAC091B19398421008E7B84 /* NetworkSceneGraph.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6EBC63C8192FEF3E00FCF7C3;
-			remoteInfo = NetworkSceneGraph;
-		};
-		6EAC092319398421008E7B84 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6EAC091B19398421008E7B84 /* NetworkSceneGraph.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6EBC63DF192FEF3E00FCF7C3;
-			remoteInfo = NetworkSceneGraphTests;
-		};
-		6EAC09331939881E008E7B84 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6EAC091B19398421008E7B84 /* NetworkSceneGraph.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 6EBC63C7192FEF3E00FCF7C3;
-			remoteInfo = NetworkSceneGraph;
-		};
-		6EAC0947193989A2008E7B84 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6EAC093F193989A2008E7B84 /* NetworkObjects.xcodeproj */;
+			containerPortal = 6E3411F8193A76650090BCE6 /* NetworkObjects.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 6E2BD7BE1817309E00E9D04C;
 			remoteInfo = NetworkObjects;
 		};
-		6EAC0949193989A2008E7B84 /* PBXContainerItemProxy */ = {
+		6E341202193A76650090BCE6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6EAC093F193989A2008E7B84 /* NetworkObjects.xcodeproj */;
+			containerPortal = 6E3411F8193A76650090BCE6 /* NetworkObjects.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 6E2BD7D51817309E00E9D04C;
 			remoteInfo = NetworkObjectsTests;
 		};
-		6EAC094B193989A2008E7B84 /* PBXContainerItemProxy */ = {
+		6E341204193A76650090BCE6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6EAC093F193989A2008E7B84 /* NetworkObjects.xcodeproj */;
+			containerPortal = 6E3411F8193A76650090BCE6 /* NetworkObjects.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 6EED73E21818648F00F911BC;
 			remoteInfo = NetworkObjectsiOS;
 		};
-		6EAC094D193989A2008E7B84 /* PBXContainerItemProxy */ = {
+		6E341206193A76650090BCE6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6EAC093F193989A2008E7B84 /* NetworkObjects.xcodeproj */;
+			containerPortal = 6E3411F8193A76650090BCE6 /* NetworkObjects.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 6EED73F01818648F00F911BC;
 			remoteInfo = NetworkObjectsiOSTests;
 		};
-		6EAC094F193989AE008E7B84 /* PBXContainerItemProxy */ = {
+		6EF2F340193A774600DC322F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6EAC093F193989A2008E7B84 /* NetworkObjects.xcodeproj */;
+			containerPortal = 6E3411ED193A76340090BCE6 /* NetworkSceneGraph.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6EBC63C8192FEF3E00FCF7C3;
+			remoteInfo = NetworkSceneGraph;
+		};
+		6EF2F342193A774600DC322F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E3411ED193A76340090BCE6 /* NetworkSceneGraph.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6EBC63DF192FEF3E00FCF7C3;
+			remoteInfo = NetworkSceneGraphTests;
+		};
+		6EF2F348193A77A700DC322F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E3411F8193A76650090BCE6 /* NetworkObjects.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 6E2BD7BD1817309E00E9D04C;
 			remoteInfo = NetworkObjects;
 		};
+		6EF2F34A193A77AA00DC322F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E3411ED193A76340090BCE6 /* NetworkSceneGraph.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EBC63C7192FEF3E00FCF7C3;
+			remoteInfo = NetworkSceneGraph;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		6EAC09371939883D008E7B84 /* CopyFiles */ = {
+		6E341208193A76C00090BCE6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6EAC09711939A7FB008E7B84 /* NetworkObjects.framework in CopyFiles */,
-				6EAC09381939884A008E7B84 /* NetworkSceneGraph.framework in CopyFiles */,
+				6EF2F34D193A77BB00DC322F /* NetworkSceneGraph.framework in CopyFiles */,
+				6EF2F34C193A77B200DC322F /* NetworkObjects.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6EAC08E119398310008E7B84 /* NetworkNavigator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkNavigator.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6EAC08E419398310008E7B84 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		6EAC08E719398310008E7B84 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		6EAC08E819398310008E7B84 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		6EAC08E919398310008E7B84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		6EAC08EC19398310008E7B84 /* NetworkNavigator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NetworkNavigator-Info.plist"; sourceTree = "<group>"; };
-		6EAC08EE19398310008E7B84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6EAC08F019398310008E7B84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6EAC08F219398310008E7B84 /* NetworkNavigator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NetworkNavigator-Prefix.pch"; sourceTree = "<group>"; };
-		6EAC08F419398310008E7B84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		6EAC08F619398310008E7B84 /* NAVDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NAVDocument.h; sourceTree = "<group>"; };
-		6EAC08F719398310008E7B84 /* NAVDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NAVDocument.m; sourceTree = "<group>"; };
-		6EAC08FA19398310008E7B84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/NAVDocument.xib; sourceTree = "<group>"; };
-		6EAC08FD19398310008E7B84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		6EAC08FF19398310008E7B84 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6EAC090519398310008E7B84 /* NetworkNavigatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkNavigatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6EAC090619398310008E7B84 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		6EAC090D19398310008E7B84 /* NetworkNavigatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NetworkNavigatorTests-Info.plist"; sourceTree = "<group>"; };
-		6EAC090F19398310008E7B84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6EAC091119398310008E7B84 /* NetworkNavigatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkNavigatorTests.m; sourceTree = "<group>"; };
-		6EAC091B19398421008E7B84 /* NetworkSceneGraph.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NetworkSceneGraph.xcodeproj; path = ../NetworkSceneGraph/NetworkSceneGraph/NetworkSceneGraph.xcodeproj; sourceTree = "<group>"; };
-		6EAC093F193989A2008E7B84 /* NetworkObjects.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NetworkObjects.xcodeproj; path = ../NetworkSceneGraph/NetworkSceneGraph/Dependencies/NetworkObjects/Framework/NetworkObjects/NetworkObjects.xcodeproj; sourceTree = "<group>"; };
-		6EAC095319398B8A008E7B84 /* NetworkNavigator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = NetworkNavigator.entitlements; sourceTree = "<group>"; };
-		6EAC095419398BD6008E7B84 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
-		6EAC09571939931D008E7B84 /* NAVStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAVStore.h; sourceTree = "<group>"; };
-		6EAC09581939931D008E7B84 /* NAVStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAVStore.m; sourceTree = "<group>"; };
+		6E3411B6193A75FF0090BCE6 /* NetworkNavigator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkNavigator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E3411B9193A75FF0090BCE6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6E3411BC193A75FF0090BCE6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6E3411BD193A75FF0090BCE6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6E3411BE193A75FF0090BCE6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6E3411C1193A75FF0090BCE6 /* NetworkNavigator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NetworkNavigator-Info.plist"; sourceTree = "<group>"; };
+		6E3411C3193A75FF0090BCE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6E3411C5193A75FF0090BCE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E3411C7193A75FF0090BCE6 /* NetworkNavigator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NetworkNavigator-Prefix.pch"; sourceTree = "<group>"; };
+		6E3411C9193A75FF0090BCE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		6E3411CB193A75FF0090BCE6 /* NAVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NAVAppDelegate.h; sourceTree = "<group>"; };
+		6E3411CC193A75FF0090BCE6 /* NAVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NAVAppDelegate.m; sourceTree = "<group>"; };
+		6E3411CF193A75FF0090BCE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6E3411D1193A75FF0090BCE6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6E3411D7193A75FF0090BCE6 /* NetworkNavigatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkNavigatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E3411D8193A75FF0090BCE6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6E3411DF193A75FF0090BCE6 /* NetworkNavigatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NetworkNavigatorTests-Info.plist"; sourceTree = "<group>"; };
+		6E3411E1193A75FF0090BCE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6E3411E3193A75FF0090BCE6 /* NetworkNavigatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkNavigatorTests.m; sourceTree = "<group>"; };
+		6E3411ED193A76340090BCE6 /* NetworkSceneGraph.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NetworkSceneGraph.xcodeproj; path = ../NetworkSceneGraph/NetworkSceneGraph/NetworkSceneGraph.xcodeproj; sourceTree = "<group>"; };
+		6E3411F8193A76650090BCE6 /* NetworkObjects.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NetworkObjects.xcodeproj; path = ../NetworkSceneGraph/NetworkSceneGraph/Dependencies/NetworkObjects/Framework/NetworkObjects/NetworkObjects.xcodeproj; sourceTree = "<group>"; };
+		6E34120E193A771A0090BCE6 /* NetworkNavigator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = NetworkNavigator.entitlements; sourceTree = "<group>"; };
+		6EF2F346193A779900DC322F /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6EAC08DE19398310008E7B84 /* Frameworks */ = {
+		6E3411B3193A75FF0090BCE6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EAC09701939A7F3008E7B84 /* NetworkObjects.framework in Frameworks */,
-				6EAC092719398447008E7B84 /* NetworkSceneGraph.framework in Frameworks */,
-				6EAC095519398BD6008E7B84 /* SceneKit.framework in Frameworks */,
-				6EAC08E519398310008E7B84 /* Cocoa.framework in Frameworks */,
+				6EF2F347193A779900DC322F /* SceneKit.framework in Frameworks */,
+				6EF2F345193A778F00DC322F /* NetworkObjects.framework in Frameworks */,
+				6EF2F344193A777100DC322F /* NetworkSceneGraph.framework in Frameworks */,
+				6E3411BA193A75FF0090BCE6 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6EAC090219398310008E7B84 /* Frameworks */ = {
+		6E3411D4193A75FF0090BCE6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EAC090819398310008E7B84 /* Cocoa.framework in Frameworks */,
-				6EAC090719398310008E7B84 /* XCTest.framework in Frameworks */,
+				6E3411DA193A75FF0090BCE6 /* Cocoa.framework in Frameworks */,
+				6E3411D9193A75FF0090BCE6 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6EAC08D819398310008E7B84 = {
+		6E3411AD193A75FF0090BCE6 = {
 			isa = PBXGroup;
 			children = (
-				6EAC08EA19398310008E7B84 /* NetworkNavigator */,
-				6EAC090B19398310008E7B84 /* NetworkNavigatorTests */,
-				6EAC08E319398310008E7B84 /* Frameworks */,
-				6EAC08E219398310008E7B84 /* Products */,
+				6E3411BF193A75FF0090BCE6 /* NetworkNavigator */,
+				6E3411DD193A75FF0090BCE6 /* NetworkNavigatorTests */,
+				6E3411B8193A75FF0090BCE6 /* Frameworks */,
+				6E3411B7193A75FF0090BCE6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6EAC08E219398310008E7B84 /* Products */ = {
+		6E3411B7193A75FF0090BCE6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6EAC08E119398310008E7B84 /* NetworkNavigator.app */,
-				6EAC090519398310008E7B84 /* NetworkNavigatorTests.xctest */,
+				6E3411B6193A75FF0090BCE6 /* NetworkNavigator.app */,
+				6E3411D7193A75FF0090BCE6 /* NetworkNavigatorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6EAC08E319398310008E7B84 /* Frameworks */ = {
+		6E3411B8193A75FF0090BCE6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6EAC095419398BD6008E7B84 /* SceneKit.framework */,
-				6EAC093F193989A2008E7B84 /* NetworkObjects.xcodeproj */,
-				6EAC091B19398421008E7B84 /* NetworkSceneGraph.xcodeproj */,
-				6EAC08E419398310008E7B84 /* Cocoa.framework */,
-				6EAC090619398310008E7B84 /* XCTest.framework */,
-				6EAC08E619398310008E7B84 /* Other Frameworks */,
+				6EF2F346193A779900DC322F /* SceneKit.framework */,
+				6E3411F8193A76650090BCE6 /* NetworkObjects.xcodeproj */,
+				6E3411ED193A76340090BCE6 /* NetworkSceneGraph.xcodeproj */,
+				6E3411B9193A75FF0090BCE6 /* Cocoa.framework */,
+				6E3411D8193A75FF0090BCE6 /* XCTest.framework */,
+				6E3411BB193A75FF0090BCE6 /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6EAC08E619398310008E7B84 /* Other Frameworks */ = {
+		6E3411BB193A75FF0090BCE6 /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6EAC08E719398310008E7B84 /* AppKit.framework */,
-				6EAC08E819398310008E7B84 /* CoreData.framework */,
-				6EAC08E919398310008E7B84 /* Foundation.framework */,
+				6E3411BC193A75FF0090BCE6 /* AppKit.framework */,
+				6E3411BD193A75FF0090BCE6 /* CoreData.framework */,
+				6E3411BE193A75FF0090BCE6 /* Foundation.framework */,
 			);
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		6EAC08EA19398310008E7B84 /* NetworkNavigator */ = {
+		6E3411BF193A75FF0090BCE6 /* NetworkNavigator */ = {
 			isa = PBXGroup;
 			children = (
-				6EAC08F619398310008E7B84 /* NAVDocument.h */,
-				6EAC08F719398310008E7B84 /* NAVDocument.m */,
-				6EAC08F919398310008E7B84 /* NAVDocument.xib */,
-				6EAC08FC19398310008E7B84 /* MainMenu.xib */,
-				6EAC08FF19398310008E7B84 /* Images.xcassets */,
-				6EAC0956193992EB008E7B84 /* Stores */,
-				6EAC08EB19398310008E7B84 /* Supporting Files */,
+				6E3411CB193A75FF0090BCE6 /* NAVAppDelegate.h */,
+				6E3411CC193A75FF0090BCE6 /* NAVAppDelegate.m */,
+				6E3411CE193A75FF0090BCE6 /* MainMenu.xib */,
+				6E3411D1193A75FF0090BCE6 /* Images.xcassets */,
+				6E3411C0193A75FF0090BCE6 /* Supporting Files */,
 			);
 			path = NetworkNavigator;
 			sourceTree = "<group>";
 		};
-		6EAC08EB19398310008E7B84 /* Supporting Files */ = {
+		6E3411C0193A75FF0090BCE6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6EAC095319398B8A008E7B84 /* NetworkNavigator.entitlements */,
-				6EAC08EC19398310008E7B84 /* NetworkNavigator-Info.plist */,
-				6EAC08ED19398310008E7B84 /* InfoPlist.strings */,
-				6EAC08F019398310008E7B84 /* main.m */,
-				6EAC08F219398310008E7B84 /* NetworkNavigator-Prefix.pch */,
-				6EAC08F319398310008E7B84 /* Credits.rtf */,
+				6E34120E193A771A0090BCE6 /* NetworkNavigator.entitlements */,
+				6E3411C1193A75FF0090BCE6 /* NetworkNavigator-Info.plist */,
+				6E3411C2193A75FF0090BCE6 /* InfoPlist.strings */,
+				6E3411C5193A75FF0090BCE6 /* main.m */,
+				6E3411C7193A75FF0090BCE6 /* NetworkNavigator-Prefix.pch */,
+				6E3411C8193A75FF0090BCE6 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6EAC090B19398310008E7B84 /* NetworkNavigatorTests */ = {
+		6E3411DD193A75FF0090BCE6 /* NetworkNavigatorTests */ = {
 			isa = PBXGroup;
 			children = (
-				6EAC091119398310008E7B84 /* NetworkNavigatorTests.m */,
-				6EAC090C19398310008E7B84 /* Supporting Files */,
+				6E3411E3193A75FF0090BCE6 /* NetworkNavigatorTests.m */,
+				6E3411DE193A75FF0090BCE6 /* Supporting Files */,
 			);
 			path = NetworkNavigatorTests;
 			sourceTree = "<group>";
 		};
-		6EAC090C19398310008E7B84 /* Supporting Files */ = {
+		6E3411DE193A75FF0090BCE6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6EAC090D19398310008E7B84 /* NetworkNavigatorTests-Info.plist */,
-				6EAC090E19398310008E7B84 /* InfoPlist.strings */,
+				6E3411DF193A75FF0090BCE6 /* NetworkNavigatorTests-Info.plist */,
+				6E3411E0193A75FF0090BCE6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6EAC091C19398421008E7B84 /* Products */ = {
+		6E3411F9193A76650090BCE6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6EAC092219398421008E7B84 /* NetworkSceneGraph.framework */,
-				6EAC092419398421008E7B84 /* NetworkSceneGraphTests.xctest */,
+				6E341201193A76650090BCE6 /* NetworkObjects.framework */,
+				6E341203193A76650090BCE6 /* NetworkObjectsTests.xctest */,
+				6E341205193A76650090BCE6 /* libNetworkObjects.a */,
+				6E341207193A76650090BCE6 /* NetworkObjectsiOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6EAC0940193989A2008E7B84 /* Products */ = {
+		6EF2F338193A774600DC322F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6EAC0948193989A2008E7B84 /* NetworkObjects.framework */,
-				6EAC094A193989A2008E7B84 /* NetworkObjectsTests.xctest */,
-				6EAC094C193989A2008E7B84 /* libNetworkObjects.a */,
-				6EAC094E193989A2008E7B84 /* NetworkObjectsiOSTests.xctest */,
+				6EF2F341193A774600DC322F /* NetworkSceneGraph.framework */,
+				6EF2F343193A774600DC322F /* NetworkSceneGraphTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		6EAC0956193992EB008E7B84 /* Stores */ = {
-			isa = PBXGroup;
-			children = (
-				6EAC09571939931D008E7B84 /* NAVStore.h */,
-				6EAC09581939931D008E7B84 /* NAVStore.m */,
-			);
-			name = Stores;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6EAC08E019398310008E7B84 /* NetworkNavigator */ = {
+		6E3411B5193A75FF0090BCE6 /* NetworkNavigator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6EAC091519398310008E7B84 /* Build configuration list for PBXNativeTarget "NetworkNavigator" */;
+			buildConfigurationList = 6E3411E7193A75FF0090BCE6 /* Build configuration list for PBXNativeTarget "NetworkNavigator" */;
 			buildPhases = (
-				6EAC08DD19398310008E7B84 /* Sources */,
-				6EAC08DE19398310008E7B84 /* Frameworks */,
-				6EAC08DF19398310008E7B84 /* Resources */,
-				6EAC09371939883D008E7B84 /* CopyFiles */,
+				6E3411B2193A75FF0090BCE6 /* Sources */,
+				6E3411B3193A75FF0090BCE6 /* Frameworks */,
+				6E3411B4193A75FF0090BCE6 /* Resources */,
+				6E341208193A76C00090BCE6 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6EAC0950193989AE008E7B84 /* PBXTargetDependency */,
-				6EAC09341939881E008E7B84 /* PBXTargetDependency */,
+				6EF2F34B193A77AA00DC322F /* PBXTargetDependency */,
+				6EF2F349193A77A700DC322F /* PBXTargetDependency */,
 			);
 			name = NetworkNavigator;
 			productName = NetworkNavigator;
-			productReference = 6EAC08E119398310008E7B84 /* NetworkNavigator.app */;
+			productReference = 6E3411B6193A75FF0090BCE6 /* NetworkNavigator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6EAC090419398310008E7B84 /* NetworkNavigatorTests */ = {
+		6E3411D6193A75FF0090BCE6 /* NetworkNavigatorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6EAC091819398310008E7B84 /* Build configuration list for PBXNativeTarget "NetworkNavigatorTests" */;
+			buildConfigurationList = 6E3411EA193A75FF0090BCE6 /* Build configuration list for PBXNativeTarget "NetworkNavigatorTests" */;
 			buildPhases = (
-				6EAC090119398310008E7B84 /* Sources */,
-				6EAC090219398310008E7B84 /* Frameworks */,
-				6EAC090319398310008E7B84 /* Resources */,
+				6E3411D3193A75FF0090BCE6 /* Sources */,
+				6E3411D4193A75FF0090BCE6 /* Frameworks */,
+				6E3411D5193A75FF0090BCE6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6EAC090A19398310008E7B84 /* PBXTargetDependency */,
+				6E3411DC193A75FF0090BCE6 /* PBXTargetDependency */,
 			);
 			name = NetworkNavigatorTests;
 			productName = NetworkNavigatorTests;
-			productReference = 6EAC090519398310008E7B84 /* NetworkNavigatorTests.xctest */;
+			productReference = 6E3411D7193A75FF0090BCE6 /* NetworkNavigatorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6EAC08D919398310008E7B84 /* Project object */ = {
+		6E3411AE193A75FF0090BCE6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = NAV;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = ColemanCDA;
 				TargetAttributes = {
-					6EAC08E019398310008E7B84 = {
-						DevelopmentTeam = 4W79SG34MW;
+					6E3411B5193A75FF0090BCE6 = {
 						SystemCapabilities = {
 							com.apple.Sandbox = {
 								enabled = 1;
 							};
 						};
 					};
-					6EAC090419398310008E7B84 = {
-						TestTargetID = 6EAC08E019398310008E7B84;
+					6E3411D6193A75FF0090BCE6 = {
+						TestTargetID = 6E3411B5193A75FF0090BCE6;
 					};
 				};
 			};
-			buildConfigurationList = 6EAC08DC19398310008E7B84 /* Build configuration list for PBXProject "NetworkNavigator" */;
+			buildConfigurationList = 6E3411B1193A75FF0090BCE6 /* Build configuration list for PBXProject "NetworkNavigator" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -349,172 +331,161 @@
 				en,
 				Base,
 			);
-			mainGroup = 6EAC08D819398310008E7B84;
-			productRefGroup = 6EAC08E219398310008E7B84 /* Products */;
+			mainGroup = 6E3411AD193A75FF0090BCE6;
+			productRefGroup = 6E3411B7193A75FF0090BCE6 /* Products */;
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 6EAC0940193989A2008E7B84 /* Products */;
-					ProjectRef = 6EAC093F193989A2008E7B84 /* NetworkObjects.xcodeproj */;
+					ProductGroup = 6E3411F9193A76650090BCE6 /* Products */;
+					ProjectRef = 6E3411F8193A76650090BCE6 /* NetworkObjects.xcodeproj */;
 				},
 				{
-					ProductGroup = 6EAC091C19398421008E7B84 /* Products */;
-					ProjectRef = 6EAC091B19398421008E7B84 /* NetworkSceneGraph.xcodeproj */;
+					ProductGroup = 6EF2F338193A774600DC322F /* Products */;
+					ProjectRef = 6E3411ED193A76340090BCE6 /* NetworkSceneGraph.xcodeproj */;
 				},
 			);
 			projectRoot = "";
 			targets = (
-				6EAC08E019398310008E7B84 /* NetworkNavigator */,
-				6EAC090419398310008E7B84 /* NetworkNavigatorTests */,
+				6E3411B5193A75FF0090BCE6 /* NetworkNavigator */,
+				6E3411D6193A75FF0090BCE6 /* NetworkNavigatorTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		6EAC092219398421008E7B84 /* NetworkSceneGraph.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = NetworkSceneGraph.framework;
-			remoteRef = 6EAC092119398421008E7B84 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6EAC092419398421008E7B84 /* NetworkSceneGraphTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = NetworkSceneGraphTests.xctest;
-			remoteRef = 6EAC092319398421008E7B84 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6EAC0948193989A2008E7B84 /* NetworkObjects.framework */ = {
+		6E341201193A76650090BCE6 /* NetworkObjects.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = NetworkObjects.framework;
-			remoteRef = 6EAC0947193989A2008E7B84 /* PBXContainerItemProxy */;
+			remoteRef = 6E341200193A76650090BCE6 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		6EAC094A193989A2008E7B84 /* NetworkObjectsTests.xctest */ = {
+		6E341203193A76650090BCE6 /* NetworkObjectsTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = NetworkObjectsTests.xctest;
-			remoteRef = 6EAC0949193989A2008E7B84 /* PBXContainerItemProxy */;
+			remoteRef = 6E341202193A76650090BCE6 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		6EAC094C193989A2008E7B84 /* libNetworkObjects.a */ = {
+		6E341205193A76650090BCE6 /* libNetworkObjects.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libNetworkObjects.a;
-			remoteRef = 6EAC094B193989A2008E7B84 /* PBXContainerItemProxy */;
+			remoteRef = 6E341204193A76650090BCE6 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		6EAC094E193989A2008E7B84 /* NetworkObjectsiOSTests.xctest */ = {
+		6E341207193A76650090BCE6 /* NetworkObjectsiOSTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = NetworkObjectsiOSTests.xctest;
-			remoteRef = 6EAC094D193989A2008E7B84 /* PBXContainerItemProxy */;
+			remoteRef = 6E341206193A76650090BCE6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6EF2F341193A774600DC322F /* NetworkSceneGraph.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = NetworkSceneGraph.framework;
+			remoteRef = 6EF2F340193A774600DC322F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6EF2F343193A774600DC322F /* NetworkSceneGraphTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NetworkSceneGraphTests.xctest;
+			remoteRef = 6EF2F342193A774600DC322F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6EAC08DF19398310008E7B84 /* Resources */ = {
+		6E3411B4193A75FF0090BCE6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EAC08EF19398310008E7B84 /* InfoPlist.strings in Resources */,
-				6EAC090019398310008E7B84 /* Images.xcassets in Resources */,
-				6EAC08FB19398310008E7B84 /* NAVDocument.xib in Resources */,
-				6EAC08F519398310008E7B84 /* Credits.rtf in Resources */,
-				6EAC08FE19398310008E7B84 /* MainMenu.xib in Resources */,
+				6E3411C4193A75FF0090BCE6 /* InfoPlist.strings in Resources */,
+				6E3411D2193A75FF0090BCE6 /* Images.xcassets in Resources */,
+				6E3411CA193A75FF0090BCE6 /* Credits.rtf in Resources */,
+				6E3411D0193A75FF0090BCE6 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6EAC090319398310008E7B84 /* Resources */ = {
+		6E3411D5193A75FF0090BCE6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EAC091019398310008E7B84 /* InfoPlist.strings in Resources */,
+				6E3411E2193A75FF0090BCE6 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6EAC08DD19398310008E7B84 /* Sources */ = {
+		6E3411B2193A75FF0090BCE6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EAC09591939931D008E7B84 /* NAVStore.m in Sources */,
-				6EAC08F819398310008E7B84 /* NAVDocument.m in Sources */,
-				6EAC08F119398310008E7B84 /* main.m in Sources */,
+				6E3411CD193A75FF0090BCE6 /* NAVAppDelegate.m in Sources */,
+				6E3411C6193A75FF0090BCE6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6EAC090119398310008E7B84 /* Sources */ = {
+		6E3411D3193A75FF0090BCE6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EAC091219398310008E7B84 /* NetworkNavigatorTests.m in Sources */,
-				6EAC095A1939931D008E7B84 /* NAVStore.m in Sources */,
+				6E3411E4193A75FF0090BCE6 /* NetworkNavigatorTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6EAC090A19398310008E7B84 /* PBXTargetDependency */ = {
+		6E3411DC193A75FF0090BCE6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6EAC08E019398310008E7B84 /* NetworkNavigator */;
-			targetProxy = 6EAC090919398310008E7B84 /* PBXContainerItemProxy */;
+			target = 6E3411B5193A75FF0090BCE6 /* NetworkNavigator */;
+			targetProxy = 6E3411DB193A75FF0090BCE6 /* PBXContainerItemProxy */;
 		};
-		6EAC09341939881E008E7B84 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = NetworkSceneGraph;
-			targetProxy = 6EAC09331939881E008E7B84 /* PBXContainerItemProxy */;
-		};
-		6EAC0950193989AE008E7B84 /* PBXTargetDependency */ = {
+		6EF2F349193A77A700DC322F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NetworkObjects;
-			targetProxy = 6EAC094F193989AE008E7B84 /* PBXContainerItemProxy */;
+			targetProxy = 6EF2F348193A77A700DC322F /* PBXContainerItemProxy */;
+		};
+		6EF2F34B193A77AA00DC322F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NetworkSceneGraph;
+			targetProxy = 6EF2F34A193A77AA00DC322F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6EAC08ED19398310008E7B84 /* InfoPlist.strings */ = {
+		6E3411C2193A75FF0090BCE6 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6EAC08EE19398310008E7B84 /* en */,
+				6E3411C3193A75FF0090BCE6 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		6EAC08F319398310008E7B84 /* Credits.rtf */ = {
+		6E3411C8193A75FF0090BCE6 /* Credits.rtf */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6EAC08F419398310008E7B84 /* en */,
+				6E3411C9193A75FF0090BCE6 /* en */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
-		6EAC08F919398310008E7B84 /* NAVDocument.xib */ = {
+		6E3411CE193A75FF0090BCE6 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6EAC08FA19398310008E7B84 /* Base */,
-			);
-			name = NAVDocument.xib;
-			sourceTree = "<group>";
-		};
-		6EAC08FC19398310008E7B84 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6EAC08FD19398310008E7B84 /* Base */,
+				6E3411CF193A75FF0090BCE6 /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
-		6EAC090E19398310008E7B84 /* InfoPlist.strings */ = {
+		6E3411E0193A75FF0090BCE6 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6EAC090F19398310008E7B84 /* en */,
+				6E3411E1193A75FF0090BCE6 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -522,7 +493,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		6EAC091319398310008E7B84 /* Debug */ = {
+		6E3411E5193A75FF0090BCE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -560,7 +531,7 @@
 			};
 			name = Debug;
 		};
-		6EAC091419398310008E7B84 /* Release */ = {
+		6E3411E6193A75FF0090BCE6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -592,15 +563,15 @@
 			};
 			name = Release;
 		};
-		6EAC091619398310008E7B84 /* Debug */ = {
+		6E3411E8193A75FF0090BCE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = NetworkNavigator/NetworkNavigator.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/Coleman/Programming/MyProjects/NetworkNavigator/NetworkSceneGraph/NetworkSceneGraph/Dependencies/NetworkObjects/Framework/NetworkObjects/build/Debug,
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/NetworkNavigator-ciokbgrekeksbehdtsmlzkspbwan/Build/Products/Debug",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -612,15 +583,15 @@
 			};
 			name = Debug;
 		};
-		6EAC091719398310008E7B84 /* Release */ = {
+		6E3411E9193A75FF0090BCE6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = NetworkNavigator/NetworkNavigator.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/Coleman/Programming/MyProjects/NetworkNavigator/NetworkSceneGraph/NetworkSceneGraph/Dependencies/NetworkObjects/Framework/NetworkObjects/build/Debug,
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/NetworkNavigator-ciokbgrekeksbehdtsmlzkspbwan/Build/Products/Debug",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -632,7 +603,7 @@
 			};
 			name = Release;
 		};
-		6EAC091919398310008E7B84 /* Debug */ = {
+		6E3411EB193A75FF0090BCE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NetworkNavigator.app/Contents/MacOS/NetworkNavigator";
@@ -654,7 +625,7 @@
 			};
 			name = Debug;
 		};
-		6EAC091A19398310008E7B84 /* Release */ = {
+		6E3411EC193A75FF0090BCE6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NetworkNavigator.app/Contents/MacOS/NetworkNavigator";
@@ -675,34 +646,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6EAC08DC19398310008E7B84 /* Build configuration list for PBXProject "NetworkNavigator" */ = {
+		6E3411B1193A75FF0090BCE6 /* Build configuration list for PBXProject "NetworkNavigator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6EAC091319398310008E7B84 /* Debug */,
-				6EAC091419398310008E7B84 /* Release */,
+				6E3411E5193A75FF0090BCE6 /* Debug */,
+				6E3411E6193A75FF0090BCE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6EAC091519398310008E7B84 /* Build configuration list for PBXNativeTarget "NetworkNavigator" */ = {
+		6E3411E7193A75FF0090BCE6 /* Build configuration list for PBXNativeTarget "NetworkNavigator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6EAC091619398310008E7B84 /* Debug */,
-				6EAC091719398310008E7B84 /* Release */,
+				6E3411E8193A75FF0090BCE6 /* Debug */,
+				6E3411E9193A75FF0090BCE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6EAC091819398310008E7B84 /* Build configuration list for PBXNativeTarget "NetworkNavigatorTests" */ = {
+		6E3411EA193A75FF0090BCE6 /* Build configuration list for PBXNativeTarget "NetworkNavigatorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6EAC091919398310008E7B84 /* Debug */,
-				6EAC091A19398310008E7B84 /* Release */,
+				6E3411EB193A75FF0090BCE6 /* Debug */,
+				6E3411EC193A75FF0090BCE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6EAC08D919398310008E7B84 /* Project object */;
+	rootObject = 6E3411AE193A75FF0090BCE6 /* Project object */;
 }
