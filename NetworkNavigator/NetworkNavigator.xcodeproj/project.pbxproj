@@ -21,11 +21,11 @@
 		6EAC091219398310008E7B84 /* NetworkNavigatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAC091119398310008E7B84 /* NetworkNavigatorTests.m */; };
 		6EAC092719398447008E7B84 /* NetworkSceneGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EAC092219398421008E7B84 /* NetworkSceneGraph.framework */; };
 		6EAC09381939884A008E7B84 /* NetworkSceneGraph.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6EAC092219398421008E7B84 /* NetworkSceneGraph.framework */; };
-		6EAC0951193989B5008E7B84 /* NetworkObjects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EAC0948193989A2008E7B84 /* NetworkObjects.framework */; };
-		6EAC0952193989C4008E7B84 /* NetworkObjects.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6EAC0948193989A2008E7B84 /* NetworkObjects.framework */; };
 		6EAC095519398BD6008E7B84 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EAC095419398BD6008E7B84 /* SceneKit.framework */; };
 		6EAC09591939931D008E7B84 /* NAVStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAC09581939931D008E7B84 /* NAVStore.m */; };
 		6EAC095A1939931D008E7B84 /* NAVStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAC09581939931D008E7B84 /* NAVStore.m */; };
+		6EAC09701939A7F3008E7B84 /* NetworkObjects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EAC0948193989A2008E7B84 /* NetworkObjects.framework */; };
+		6EAC09711939A7FB008E7B84 /* NetworkObjects.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6EAC0948193989A2008E7B84 /* NetworkObjects.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,7 +101,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6EAC0952193989C4008E7B84 /* NetworkObjects.framework in CopyFiles */,
+				6EAC09711939A7FB008E7B84 /* NetworkObjects.framework in CopyFiles */,
 				6EAC09381939884A008E7B84 /* NetworkSceneGraph.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,8 +142,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EAC09701939A7F3008E7B84 /* NetworkObjects.framework in Frameworks */,
 				6EAC095519398BD6008E7B84 /* SceneKit.framework in Frameworks */,
-				6EAC0951193989B5008E7B84 /* NetworkObjects.framework in Frameworks */,
 				6EAC092719398447008E7B84 /* NetworkSceneGraph.framework in Frameworks */,
 				6EAC08E519398310008E7B84 /* Cocoa.framework in Frameworks */,
 			);

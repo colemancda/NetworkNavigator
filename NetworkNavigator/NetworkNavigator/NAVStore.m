@@ -10,10 +10,9 @@
 
 @implementation NAVStore
 
--(instancetype)initWithOptions:(NSDictionary *)options
+- (instancetype)init
 {
-    self = [super initWithOptions:options];
-    
+    self = [super initWithNSGAPICachedStoreWithDateCachedAttributeName:@"dateCached"];
     if (self) {
         
         NSPersistentStoreCoordinator *psc = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:self.model];
@@ -44,7 +43,6 @@
                                                    object:self.context];
         
     }
-    
     return self;
 }
 
