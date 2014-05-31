@@ -24,6 +24,8 @@
 		6EAC0951193989B5008E7B84 /* NetworkObjects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EAC0948193989A2008E7B84 /* NetworkObjects.framework */; };
 		6EAC0952193989C4008E7B84 /* NetworkObjects.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6EAC0948193989A2008E7B84 /* NetworkObjects.framework */; };
 		6EAC095519398BD6008E7B84 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EAC095419398BD6008E7B84 /* SceneKit.framework */; };
+		6EAC09591939931D008E7B84 /* NAVStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAC09581939931D008E7B84 /* NAVStore.m */; };
+		6EAC095A1939931D008E7B84 /* NAVStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAC09581939931D008E7B84 /* NAVStore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,6 +133,8 @@
 		6EAC093F193989A2008E7B84 /* NetworkObjects.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NetworkObjects.xcodeproj; path = ../NetworkSceneGraph/NetworkSceneGraph/Dependencies/NetworkObjects/Framework/NetworkObjects/NetworkObjects.xcodeproj; sourceTree = "<group>"; };
 		6EAC095319398B8A008E7B84 /* NetworkNavigator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = NetworkNavigator.entitlements; sourceTree = "<group>"; };
 		6EAC095419398BD6008E7B84 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		6EAC09571939931D008E7B84 /* NAVStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAVStore.h; sourceTree = "<group>"; };
+		6EAC09581939931D008E7B84 /* NAVStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAVStore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +211,7 @@
 				6EAC08F919398310008E7B84 /* NAVDocument.xib */,
 				6EAC08FC19398310008E7B84 /* MainMenu.xib */,
 				6EAC08FF19398310008E7B84 /* Images.xcassets */,
+				6EAC0956193992EB008E7B84 /* Stores */,
 				6EAC08EB19398310008E7B84 /* Supporting Files */,
 			);
 			path = NetworkNavigator;
@@ -261,6 +266,15 @@
 				6EAC094E193989A2008E7B84 /* NetworkObjectsiOSTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		6EAC0956193992EB008E7B84 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				6EAC09571939931D008E7B84 /* NAVStore.h */,
+				6EAC09581939931D008E7B84 /* NAVStore.m */,
+			);
+			name = Stores;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -429,6 +443,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EAC09591939931D008E7B84 /* NAVStore.m in Sources */,
 				6EAC08F819398310008E7B84 /* NAVDocument.m in Sources */,
 				6EAC08F119398310008E7B84 /* main.m in Sources */,
 			);
@@ -439,6 +454,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EAC091219398310008E7B84 /* NetworkNavigatorTests.m in Sources */,
+				6EAC095A1939931D008E7B84 /* NAVStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
