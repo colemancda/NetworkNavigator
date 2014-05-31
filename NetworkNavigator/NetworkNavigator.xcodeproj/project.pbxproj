@@ -546,6 +546,7 @@
 				6EAC091719398310008E7B84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EAC091819398310008E7B84 /* Build configuration list for PBXNativeTarget "NetworkNavigatorTests" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +555,7 @@
 				6EAC091A19398310008E7B84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
