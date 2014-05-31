@@ -23,6 +23,7 @@
 		6EAC09381939884A008E7B84 /* NetworkSceneGraph.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6EAC092219398421008E7B84 /* NetworkSceneGraph.framework */; };
 		6EAC0951193989B5008E7B84 /* NetworkObjects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EAC0948193989A2008E7B84 /* NetworkObjects.framework */; };
 		6EAC0952193989C4008E7B84 /* NetworkObjects.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6EAC0948193989A2008E7B84 /* NetworkObjects.framework */; };
+		6EAC095519398BD6008E7B84 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EAC095419398BD6008E7B84 /* SceneKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +129,8 @@
 		6EAC091119398310008E7B84 /* NetworkNavigatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkNavigatorTests.m; sourceTree = "<group>"; };
 		6EAC091B19398421008E7B84 /* NetworkSceneGraph.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NetworkSceneGraph.xcodeproj; path = ../NetworkSceneGraph/NetworkSceneGraph/NetworkSceneGraph.xcodeproj; sourceTree = "<group>"; };
 		6EAC093F193989A2008E7B84 /* NetworkObjects.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NetworkObjects.xcodeproj; path = ../NetworkSceneGraph/NetworkSceneGraph/Dependencies/NetworkObjects/Framework/NetworkObjects/NetworkObjects.xcodeproj; sourceTree = "<group>"; };
+		6EAC095319398B8A008E7B84 /* NetworkNavigator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = NetworkNavigator.entitlements; sourceTree = "<group>"; };
+		6EAC095419398BD6008E7B84 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EAC095519398BD6008E7B84 /* SceneKit.framework in Frameworks */,
 				6EAC0951193989B5008E7B84 /* NetworkObjects.framework in Frameworks */,
 				6EAC092719398447008E7B84 /* NetworkSceneGraph.framework in Frameworks */,
 				6EAC08E519398310008E7B84 /* Cocoa.framework in Frameworks */,
@@ -175,6 +179,7 @@
 		6EAC08E319398310008E7B84 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6EAC095419398BD6008E7B84 /* SceneKit.framework */,
 				6EAC093F193989A2008E7B84 /* NetworkObjects.xcodeproj */,
 				6EAC091B19398421008E7B84 /* NetworkSceneGraph.xcodeproj */,
 				6EAC08E419398310008E7B84 /* Cocoa.framework */,
@@ -210,6 +215,7 @@
 		6EAC08EB19398310008E7B84 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6EAC095319398B8A008E7B84 /* NetworkNavigator.entitlements */,
 				6EAC08EC19398310008E7B84 /* NetworkNavigator-Info.plist */,
 				6EAC08ED19398310008E7B84 /* InfoPlist.strings */,
 				6EAC08F019398310008E7B84 /* main.m */,
@@ -310,6 +316,11 @@
 				TargetAttributes = {
 					6EAC08E019398310008E7B84 = {
 						DevelopmentTeam = 4W79SG34MW;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 					6EAC090419398310008E7B84 = {
 						TestTargetID = 6EAC08E019398310008E7B84;
@@ -569,6 +580,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NetworkNavigator/NetworkNavigator.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -579,6 +591,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NetworkNavigator/NetworkNavigator-Prefix.pch";
 				INFOPLIST_FILE = "NetworkNavigator/NetworkNavigator-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -588,6 +601,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NetworkNavigator/NetworkNavigator.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -598,6 +612,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NetworkNavigator/NetworkNavigator-Prefix.pch";
 				INFOPLIST_FILE = "NetworkNavigator/NetworkNavigator-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
