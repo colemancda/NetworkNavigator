@@ -10,6 +10,8 @@
 	<string>NetworkNavigator</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>9268576F-8B40-4286-9BC3-66635E999D3E</key>
+		<string>https://github.com/colemancda/CocoaAsyncSocket.git</string>
 		<key>A58D0A0C-D416-4EAE-9D1B-C11F99ECC23D</key>
 		<string>https://github.com/colemancda/NetworkNavigator.git</string>
 	</dict>
@@ -17,6 +19,8 @@
 	<string>NetworkNavigator/NetworkNavigator.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>9268576F-8B40-4286-9BC3-66635E999D3E</key>
+		<string>../../../NetworkSceneGraph/NetworkSceneGraph/Dependencies/NetworkObjects/Dependencies/CocoaAsyncSocket</string>
 		<key>A58D0A0C-D416-4EAE-9D1B-C11F99ECC23D</key>
 		<string>../../..</string>
 	</dict>
@@ -28,6 +32,14 @@
 	<string>A58D0A0C-D416-4EAE-9D1B-C11F99ECC23D</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9268576F-8B40-4286-9BC3-66635E999D3E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CocoaAsyncSocket</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

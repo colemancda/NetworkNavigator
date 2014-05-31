@@ -1,0 +1,3 @@
+[submodule "NetworkSceneGraph"]
+	path = NetworkSceneGraph
+	url = https://github.com/colemancda/NetworkSceneGraph

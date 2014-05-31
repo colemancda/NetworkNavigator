@@ -19,6 +19,8 @@
 		6EAC090819398310008E7B84 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EAC08E419398310008E7B84 /* Cocoa.framework */; };
 		6EAC091019398310008E7B84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EAC090E19398310008E7B84 /* InfoPlist.strings */; };
 		6EAC091219398310008E7B84 /* NetworkNavigatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAC091119398310008E7B84 /* NetworkNavigatorTests.m */; };
+		6EAC092619398443008E7B84 /* NetworkObjects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EAC092519398443008E7B84 /* NetworkObjects.framework */; };
+		6EAC092719398447008E7B84 /* NetworkSceneGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EAC092219398421008E7B84 /* NetworkSceneGraph.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +30,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 6EAC08E019398310008E7B84;
 			remoteInfo = NetworkNavigator;
+		};
+		6EAC092119398421008E7B84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EAC091B19398421008E7B84 /* NetworkSceneGraph.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6EBC63C8192FEF3E00FCF7C3;
+			remoteInfo = NetworkSceneGraph;
+		};
+		6EAC092319398421008E7B84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EAC091B19398421008E7B84 /* NetworkSceneGraph.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6EBC63DF192FEF3E00FCF7C3;
+			remoteInfo = NetworkSceneGraphTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -52,6 +68,8 @@
 		6EAC090D19398310008E7B84 /* NetworkNavigatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NetworkNavigatorTests-Info.plist"; sourceTree = "<group>"; };
 		6EAC090F19398310008E7B84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6EAC091119398310008E7B84 /* NetworkNavigatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkNavigatorTests.m; sourceTree = "<group>"; };
+		6EAC091B19398421008E7B84 /* NetworkSceneGraph.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NetworkSceneGraph.xcodeproj; path = ../NetworkSceneGraph/NetworkSceneGraph/NetworkSceneGraph.xcodeproj; sourceTree = "<group>"; };
+		6EAC092519398443008E7B84 /* NetworkObjects.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkObjects.framework; path = ../NetworkSceneGraph/NetworkSceneGraph/Dependencies/NetworkObjects/Framework/NetworkObjects/build/Debug/NetworkObjects.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EAC092719398447008E7B84 /* NetworkSceneGraph.framework in Frameworks */,
+				6EAC092619398443008E7B84 /* NetworkObjects.framework in Frameworks */,
 				6EAC08E519398310008E7B84 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -97,6 +117,8 @@
 		6EAC08E319398310008E7B84 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6EAC091B19398421008E7B84 /* NetworkSceneGraph.xcodeproj */,
+				6EAC092519398443008E7B84 /* NetworkObjects.framework */,
 				6EAC08E419398310008E7B84 /* Cocoa.framework */,
 				6EAC090619398310008E7B84 /* XCTest.framework */,
 				6EAC08E619398310008E7B84 /* Other Frameworks */,
@@ -155,6 +177,15 @@
 				6EAC090E19398310008E7B84 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6EAC091C19398421008E7B84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EAC092219398421008E7B84 /* NetworkSceneGraph.framework */,
+				6EAC092419398421008E7B84 /* NetworkSceneGraphTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +255,12 @@
 			mainGroup = 6EAC08D819398310008E7B84;
 			productRefGroup = 6EAC08E219398310008E7B84 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6EAC091C19398421008E7B84 /* Products */;
+					ProjectRef = 6EAC091B19398421008E7B84 /* NetworkSceneGraph.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				6EAC08E019398310008E7B84 /* NetworkNavigator */,
@@ -231,6 +268,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6EAC092219398421008E7B84 /* NetworkSceneGraph.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = NetworkSceneGraph.framework;
+			remoteRef = 6EAC092119398421008E7B84 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6EAC092419398421008E7B84 /* NetworkSceneGraphTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NetworkSceneGraphTests.xctest;
+			remoteRef = 6EAC092319398421008E7B84 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		6EAC08DF19398310008E7B84 /* Resources */ = {
@@ -403,6 +457,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Coleman/Programming/MyProjects/NetworkNavigator/NetworkSceneGraph/NetworkSceneGraph/Dependencies/NetworkObjects/Framework/NetworkObjects/build/Debug,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NetworkNavigator/NetworkNavigator-Prefix.pch";
 				INFOPLIST_FILE = "NetworkNavigator/NetworkNavigator-Info.plist";
@@ -417,6 +475,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Coleman/Programming/MyProjects/NetworkNavigator/NetworkSceneGraph/NetworkSceneGraph/Dependencies/NetworkObjects/Framework/NetworkObjects/build/Debug,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NetworkNavigator/NetworkNavigator-Prefix.pch";
 				INFOPLIST_FILE = "NetworkNavigator/NetworkNavigator-Info.plist";
