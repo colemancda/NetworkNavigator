@@ -16,6 +16,7 @@
         <customObject id="-3" userLabel="Application"/>
         <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="xOd-HO-29H" userLabel="Window">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowCollectionBehavior key="collectionBehavior" fullScreenPrimary="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="133" y="235" width="507" height="413"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1440" height="900"/>
@@ -24,7 +25,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="507" height="413"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m23-Lf-bHc">
+                    <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="m23-Lf-bHc">
                         <rect key="frame" x="20" y="371" width="467" height="22"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="nsg://" drawsBackground="YES" id="Peu-Mf-YkJ">
@@ -32,13 +33,26 @@
                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
+                        <connections>
+                            <binding destination="-2" name="value" keyPath="self.store" id="3Kf-GR-gwH"/>
+                        </connections>
                     </textField>
-                    <sceneView fixedFrame="YES" loops="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LyE-eL-DjD">
-                        <rect key="frame" x="0.0" y="0.0" width="507" height="363"/>
+                    <sceneView loops="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LyE-eL-DjD">
+                        <rect key="frame" x="0.0" y="0.0" width="507" height="351"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </sceneView>
                 </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="m23-Lf-bHc" secondAttribute="trailing" constant="20" id="8Gz-bn-JIt"/>
+                    <constraint firstItem="LyE-eL-DjD" firstAttribute="top" secondItem="m23-Lf-bHc" secondAttribute="bottom" constant="20" id="U8P-Cj-ubm"/>
+                    <constraint firstAttribute="bottom" secondItem="LyE-eL-DjD" secondAttribute="bottom" id="VGN-dJ-6tJ"/>
+                    <constraint firstItem="LyE-eL-DjD" firstAttribute="top" secondItem="m23-Lf-bHc" secondAttribute="bottom" constant="20" id="X8J-7e-N3l"/>
+                    <constraint firstItem="m23-Lf-bHc" firstAttribute="top" secondItem="gIp-Ho-8D9" secondAttribute="top" constant="20" id="Y7A-eZ-5Ok"/>
+                    <constraint firstItem="m23-Lf-bHc" firstAttribute="leading" secondItem="gIp-Ho-8D9" secondAttribute="leading" constant="20" id="xMc-R9-vNp"/>
+                    <constraint firstItem="LyE-eL-DjD" firstAttribute="leading" secondItem="gIp-Ho-8D9" secondAttribute="leading" id="y3B-2O-t0f"/>
+                    <constraint firstAttribute="trailing" secondItem="LyE-eL-DjD" secondAttribute="trailing" id="zyf-3S-KZC"/>
+                </constraints>
             </view>
             <connections>
                 <outlet property="delegate" destination="-2" id="0bl-1N-x8E"/>

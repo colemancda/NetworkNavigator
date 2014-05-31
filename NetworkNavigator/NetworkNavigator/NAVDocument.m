@@ -9,6 +9,8 @@
 #import "NAVDocument.h"
 #import "NAVStore.h"
 
+static void *KVOContext = &KVOContext;
+
 @interface NAVDocument ()
 
 @property (nonatomic) NAVStore *store;
@@ -19,6 +21,13 @@
 
 @implementation NAVDocument
 
+-(void)dealloc
+{
+    [self removeObserver:self
+              forKeyPath:@"urlTextField.stringValue"
+                 context:KVOContext];
+}
+
 - (id)init
 {
     self = [super init];
@@ -26,11 +35,55 @@
         
         // Add your subclass-specific initialization here.
         
-        self.store = [[NAVStore alloc] init];
+        // KVO
+        
+        [self addObserver:self
+               forKeyPath:@"urlTextField.stringValue"
+                  options:NSKeyValueObservingOptionNew
+                  context:KVOContext];
+        
         
         
     }
     return self;
+}
+
+-(BOOL)readFromURL:(NSURL *)url ofType:(NSString *)typeName error:(NSError *__autoreleasing *)outError
+{
+    NSLog(@"read");
+    
+    // parse URL and check if scene is specified
+    
+    if (url.path) {
+        
+        // scene should be specified
+        
+        if (url.pathComponents.count == 2) {
+            
+        }
+    }
+    
+    return NO;
+}
+
+-(id)initWithContentsOfURL:(NSURL *)url ofType:(NSString *)typeName error:(NSError *__autoreleasing *)outError
+{
+    self = [super initWithContentsOfURL:url ofType:typeName error:outError];
+    
+    if (self) {
+        
+        NSLog(@"hey");
+        
+    }
+    
+    return self;
+}
+
+-(id)initForURL:(NSURL *)urlOrNil withContentsOfURL:(NSURL *)contentsURL ofType:(NSString *)typeName error:(NSError *__autoreleasing *)outError
+{
+    
+    
+    return nil;
 }
 
 - (NSString *)windowNibName
@@ -52,6 +105,30 @@
     return NO;
 }
 
+#pragma mark - Load document
 
+-(void)loadSceneWithURL:(NSURL *)url
+        sceneResourceID:(NSNumber *)sceneResourceID
+{
+    
+    
+}
+
+#pragma mark - KVO
+
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
+{
+    if (context == KVOContext) {
+        
+        if ([keyPath isEqualToString:@"urlTextField.stringValue"]) {
+            
+            // self.store = [[NAVStore alloc] init];
+            
+        }
+        
+    } else {
+        [super observeValueForKeyPath:keyPath ofObject:object change:change context:context];
+    }
+}
 
 @end

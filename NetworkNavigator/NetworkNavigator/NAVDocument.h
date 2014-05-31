@@ -25,4 +25,9 @@
 
 @property (nonatomic, readonly) NSGScene *scene;
 
+#pragma mark - Load document
+
+-(void)loadSceneWithURL:(NSURL *)url
+        sceneResourceID:(NSNumber *)sceneResourceID;
+
 @end
