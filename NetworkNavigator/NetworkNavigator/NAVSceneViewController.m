@@ -74,7 +74,8 @@ static void *KVOContext = &KVOContext;
 -(void)loadSceneWithURL:(NSURL *)url
         sceneResourceID:(NSNumber *)sceneResourceID
 {
-    
+    [self showErrorWithLocalizedDescription:NSLocalizedString(@"Invalid URL",
+                                                              @"Invalid URL")];
     
 }
 
