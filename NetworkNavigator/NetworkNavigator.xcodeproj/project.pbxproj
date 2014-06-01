@@ -23,6 +23,9 @@
 		6EF2F347193A779900DC322F /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF2F346193A779900DC322F /* SceneKit.framework */; };
 		6EF2F34C193A77B200DC322F /* NetworkObjects.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6E341201193A76650090BCE6 /* NetworkObjects.framework */; };
 		6EF2F34D193A77BB00DC322F /* NetworkSceneGraph.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6EF2F341193A774600DC322F /* NetworkSceneGraph.framework */; };
+		6EF2F353193A81B400DC322F /* NAVStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF2F352193A81B400DC322F /* NAVStore.m */; };
+		6EF2F359193AB67800DC322F /* NAVSceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF2F357193AB67800DC322F /* NAVSceneViewController.m */; };
+		6EF2F35A193AB67800DC322F /* NAVSceneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EF2F358193AB67800DC322F /* NAVSceneViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,6 +132,11 @@
 		6E3411F8193A76650090BCE6 /* NetworkObjects.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NetworkObjects.xcodeproj; path = ../NetworkSceneGraph/NetworkSceneGraph/Dependencies/NetworkObjects/Framework/NetworkObjects/NetworkObjects.xcodeproj; sourceTree = "<group>"; };
 		6E34120E193A771A0090BCE6 /* NetworkNavigator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = NetworkNavigator.entitlements; sourceTree = "<group>"; };
 		6EF2F346193A779900DC322F /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		6EF2F351193A81B400DC322F /* NAVStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAVStore.h; sourceTree = "<group>"; };
+		6EF2F352193A81B400DC322F /* NAVStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAVStore.m; sourceTree = "<group>"; };
+		6EF2F356193AB67800DC322F /* NAVSceneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAVSceneViewController.h; sourceTree = "<group>"; };
+		6EF2F357193AB67800DC322F /* NAVSceneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAVSceneViewController.m; sourceTree = "<group>"; };
+		6EF2F358193AB67800DC322F /* NAVSceneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NAVSceneViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +211,8 @@
 				6E3411CB193A75FF0090BCE6 /* NAVAppDelegate.h */,
 				6E3411CC193A75FF0090BCE6 /* NAVAppDelegate.m */,
 				6E3411CE193A75FF0090BCE6 /* MainMenu.xib */,
+				6EF2F355193A820000DC322F /* Controllers */,
+				6EF2F354193A81FA00DC322F /* Stores */,
 				6E3411D1193A75FF0090BCE6 /* Images.xcassets */,
 				6E3411C0193A75FF0090BCE6 /* Supporting Files */,
 			);
@@ -258,6 +268,25 @@
 				6EF2F343193A774600DC322F /* NetworkSceneGraphTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		6EF2F354193A81FA00DC322F /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				6EF2F351193A81B400DC322F /* NAVStore.h */,
+				6EF2F352193A81B400DC322F /* NAVStore.m */,
+			);
+			name = Stores;
+			sourceTree = "<group>";
+		};
+		6EF2F355193A820000DC322F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6EF2F356193AB67800DC322F /* NAVSceneViewController.h */,
+				6EF2F357193AB67800DC322F /* NAVSceneViewController.m */,
+				6EF2F358193AB67800DC322F /* NAVSceneViewController.xib */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -403,6 +432,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E3411C4193A75FF0090BCE6 /* InfoPlist.strings in Resources */,
+				6EF2F35A193AB67800DC322F /* NAVSceneViewController.xib in Resources */,
 				6E3411D2193A75FF0090BCE6 /* Images.xcassets in Resources */,
 				6E3411CA193A75FF0090BCE6 /* Credits.rtf in Resources */,
 				6E3411D0193A75FF0090BCE6 /* MainMenu.xib in Resources */,
@@ -425,7 +455,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E3411CD193A75FF0090BCE6 /* NAVAppDelegate.m in Sources */,
+				6EF2F359193AB67800DC322F /* NAVSceneViewController.m in Sources */,
 				6E3411C6193A75FF0090BCE6 /* main.m in Sources */,
+				6EF2F353193A81B400DC322F /* NAVStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
