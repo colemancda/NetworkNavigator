@@ -7,352 +7,194 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6E3411BA193A75FF0090BCE6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3411B9193A75FF0090BCE6 /* Cocoa.framework */; };
-		6E3411C4193A75FF0090BCE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E3411C2193A75FF0090BCE6 /* InfoPlist.strings */; };
-		6E3411C6193A75FF0090BCE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3411C5193A75FF0090BCE6 /* main.m */; };
-		6E3411CA193A75FF0090BCE6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6E3411C8193A75FF0090BCE6 /* Credits.rtf */; };
-		6E3411CD193A75FF0090BCE6 /* NAVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3411CC193A75FF0090BCE6 /* NAVAppDelegate.m */; };
-		6E3411D0193A75FF0090BCE6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E3411CE193A75FF0090BCE6 /* MainMenu.xib */; };
-		6E3411D2193A75FF0090BCE6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E3411D1193A75FF0090BCE6 /* Images.xcassets */; };
-		6E3411D9193A75FF0090BCE6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3411D8193A75FF0090BCE6 /* XCTest.framework */; };
-		6E3411DA193A75FF0090BCE6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3411B9193A75FF0090BCE6 /* Cocoa.framework */; };
-		6E3411E2193A75FF0090BCE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E3411E0193A75FF0090BCE6 /* InfoPlist.strings */; };
-		6E3411E4193A75FF0090BCE6 /* NetworkNavigatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3411E3193A75FF0090BCE6 /* NetworkNavigatorTests.m */; };
-		6EF2F344193A777100DC322F /* NetworkSceneGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF2F341193A774600DC322F /* NetworkSceneGraph.framework */; };
-		6EF2F345193A778F00DC322F /* NetworkObjects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E341201193A76650090BCE6 /* NetworkObjects.framework */; };
-		6EF2F347193A779900DC322F /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF2F346193A779900DC322F /* SceneKit.framework */; };
-		6EF2F34C193A77B200DC322F /* NetworkObjects.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6E341201193A76650090BCE6 /* NetworkObjects.framework */; };
-		6EF2F34D193A77BB00DC322F /* NetworkSceneGraph.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6EF2F341193A774600DC322F /* NetworkSceneGraph.framework */; };
-		6EF2F353193A81B400DC322F /* NAVStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF2F352193A81B400DC322F /* NAVStore.m */; };
-		6EF2F359193AB67800DC322F /* NAVSceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF2F357193AB67800DC322F /* NAVSceneViewController.m */; };
-		6EF2F35A193AB67800DC322F /* NAVSceneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EF2F358193AB67800DC322F /* NAVSceneViewController.xib */; };
+		6E20B4C21942161D00830D55 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E20B4C11942161D00830D55 /* main.swift */; };
+		6E20B4C41942161D00830D55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E20B4C31942161D00830D55 /* ViewController.swift */; };
+		6E20B4C61942161D00830D55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E20B4C51942161D00830D55 /* AppDelegate.swift */; };
+		6E20B4C81942161D00830D55 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E20B4C71942161D00830D55 /* Images.xcassets */; };
+		6E20B4CB1942161D00830D55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E20B4C91942161D00830D55 /* Main.storyboard */; };
+		6E20B4D71942161D00830D55 /* NetworkNavigatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E20B4D61942161D00830D55 /* NetworkNavigatorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6E3411DB193A75FF0090BCE6 /* PBXContainerItemProxy */ = {
+		6E20B4D11942161D00830D55 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6E3411AE193A75FF0090BCE6 /* Project object */;
+			containerPortal = 6E20B4B41942161D00830D55 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6E3411B5193A75FF0090BCE6;
+			remoteGlobalIDString = 6E20B4BB1942161D00830D55;
 			remoteInfo = NetworkNavigator;
 		};
-		6E341200193A76650090BCE6 /* PBXContainerItemProxy */ = {
+		6E20B4E61942164600830D55 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6E3411F8193A76650090BCE6 /* NetworkObjects.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6E2BD7BE1817309E00E9D04C;
-			remoteInfo = NetworkObjects;
-		};
-		6E341202193A76650090BCE6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6E3411F8193A76650090BCE6 /* NetworkObjects.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6E2BD7D51817309E00E9D04C;
-			remoteInfo = NetworkObjectsTests;
-		};
-		6E341204193A76650090BCE6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6E3411F8193A76650090BCE6 /* NetworkObjects.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6EED73E21818648F00F911BC;
-			remoteInfo = NetworkObjectsiOS;
-		};
-		6E341206193A76650090BCE6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6E3411F8193A76650090BCE6 /* NetworkObjects.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6EED73F01818648F00F911BC;
-			remoteInfo = NetworkObjectsiOSTests;
-		};
-		6EF2F340193A774600DC322F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6E3411ED193A76340090BCE6 /* NetworkSceneGraph.xcodeproj */;
+			containerPortal = 6E20B4E01942164600830D55 /* NetworkSceneGraph.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 6EBC63C8192FEF3E00FCF7C3;
 			remoteInfo = NetworkSceneGraph;
 		};
-		6EF2F342193A774600DC322F /* PBXContainerItemProxy */ = {
+		6E20B4E81942164600830D55 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6E3411ED193A76340090BCE6 /* NetworkSceneGraph.xcodeproj */;
+			containerPortal = 6E20B4E01942164600830D55 /* NetworkSceneGraph.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 6EBC63DF192FEF3E00FCF7C3;
 			remoteInfo = NetworkSceneGraphTests;
 		};
-		6EF2F348193A77A700DC322F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6E3411F8193A76650090BCE6 /* NetworkObjects.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 6E2BD7BD1817309E00E9D04C;
-			remoteInfo = NetworkObjects;
-		};
-		6EF2F34A193A77AA00DC322F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6E3411ED193A76340090BCE6 /* NetworkSceneGraph.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 6EBC63C7192FEF3E00FCF7C3;
-			remoteInfo = NetworkSceneGraph;
-		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		6E341208193A76C00090BCE6 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				6EF2F34D193A77BB00DC322F /* NetworkSceneGraph.framework in CopyFiles */,
-				6EF2F34C193A77B200DC322F /* NetworkObjects.framework in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		6E3411B6193A75FF0090BCE6 /* NetworkNavigator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkNavigator.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E3411B9193A75FF0090BCE6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		6E3411BC193A75FF0090BCE6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		6E3411BD193A75FF0090BCE6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		6E3411BE193A75FF0090BCE6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		6E3411C1193A75FF0090BCE6 /* NetworkNavigator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NetworkNavigator-Info.plist"; sourceTree = "<group>"; };
-		6E3411C3193A75FF0090BCE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6E3411C5193A75FF0090BCE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6E3411C7193A75FF0090BCE6 /* NetworkNavigator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NetworkNavigator-Prefix.pch"; sourceTree = "<group>"; };
-		6E3411C9193A75FF0090BCE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		6E3411CB193A75FF0090BCE6 /* NAVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NAVAppDelegate.h; sourceTree = "<group>"; };
-		6E3411CC193A75FF0090BCE6 /* NAVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NAVAppDelegate.m; sourceTree = "<group>"; };
-		6E3411CF193A75FF0090BCE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		6E3411D1193A75FF0090BCE6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6E3411D7193A75FF0090BCE6 /* NetworkNavigatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkNavigatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E3411D8193A75FF0090BCE6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		6E3411DF193A75FF0090BCE6 /* NetworkNavigatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NetworkNavigatorTests-Info.plist"; sourceTree = "<group>"; };
-		6E3411E1193A75FF0090BCE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6E3411E3193A75FF0090BCE6 /* NetworkNavigatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkNavigatorTests.m; sourceTree = "<group>"; };
-		6E3411ED193A76340090BCE6 /* NetworkSceneGraph.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NetworkSceneGraph.xcodeproj; path = ../NetworkSceneGraph/NetworkSceneGraph/NetworkSceneGraph.xcodeproj; sourceTree = "<group>"; };
-		6E3411F8193A76650090BCE6 /* NetworkObjects.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NetworkObjects.xcodeproj; path = ../NetworkSceneGraph/NetworkSceneGraph/Dependencies/NetworkObjects/Framework/NetworkObjects/NetworkObjects.xcodeproj; sourceTree = "<group>"; };
-		6E34120E193A771A0090BCE6 /* NetworkNavigator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = NetworkNavigator.entitlements; sourceTree = "<group>"; };
-		6EF2F346193A779900DC322F /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
-		6EF2F351193A81B400DC322F /* NAVStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAVStore.h; sourceTree = "<group>"; };
-		6EF2F352193A81B400DC322F /* NAVStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAVStore.m; sourceTree = "<group>"; };
-		6EF2F356193AB67800DC322F /* NAVSceneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAVSceneViewController.h; sourceTree = "<group>"; };
-		6EF2F357193AB67800DC322F /* NAVSceneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAVSceneViewController.m; sourceTree = "<group>"; };
-		6EF2F358193AB67800DC322F /* NAVSceneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NAVSceneViewController.xib; sourceTree = "<group>"; };
+		6E20B4BC1942161D00830D55 /* NetworkNavigator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkNavigator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E20B4C01942161D00830D55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E20B4C11942161D00830D55 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		6E20B4C31942161D00830D55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6E20B4C51942161D00830D55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E20B4C71942161D00830D55 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6E20B4CA1942161D00830D55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E20B4D01942161D00830D55 /* NetworkNavigatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkNavigatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E20B4D51942161D00830D55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E20B4D61942161D00830D55 /* NetworkNavigatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkNavigatorTests.swift; sourceTree = "<group>"; };
+		6E20B4E01942164600830D55 /* NetworkSceneGraph.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NetworkSceneGraph.xcodeproj; path = ../../NetworkSceneGraph/NetworkSceneGraph/NetworkSceneGraph.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6E3411B3193A75FF0090BCE6 /* Frameworks */ = {
+		6E20B4B91942161D00830D55 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EF2F347193A779900DC322F /* SceneKit.framework in Frameworks */,
-				6EF2F345193A778F00DC322F /* NetworkObjects.framework in Frameworks */,
-				6EF2F344193A777100DC322F /* NetworkSceneGraph.framework in Frameworks */,
-				6E3411BA193A75FF0090BCE6 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6E3411D4193A75FF0090BCE6 /* Frameworks */ = {
+		6E20B4CD1942161D00830D55 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E3411DA193A75FF0090BCE6 /* Cocoa.framework in Frameworks */,
-				6E3411D9193A75FF0090BCE6 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6E3411AD193A75FF0090BCE6 = {
+		6E20B4B31942161D00830D55 = {
 			isa = PBXGroup;
 			children = (
-				6E3411BF193A75FF0090BCE6 /* NetworkNavigator */,
-				6E3411DD193A75FF0090BCE6 /* NetworkNavigatorTests */,
-				6E3411B8193A75FF0090BCE6 /* Frameworks */,
-				6E3411B7193A75FF0090BCE6 /* Products */,
+				6E20B4BE1942161D00830D55 /* NetworkNavigator */,
+				6E20B4D31942161D00830D55 /* NetworkNavigatorTests */,
+				6E20B4BD1942161D00830D55 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6E3411B7193A75FF0090BCE6 /* Products */ = {
+		6E20B4BD1942161D00830D55 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6E3411B6193A75FF0090BCE6 /* NetworkNavigator.app */,
-				6E3411D7193A75FF0090BCE6 /* NetworkNavigatorTests.xctest */,
+				6E20B4BC1942161D00830D55 /* NetworkNavigator.app */,
+				6E20B4D01942161D00830D55 /* NetworkNavigatorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6E3411B8193A75FF0090BCE6 /* Frameworks */ = {
+		6E20B4BE1942161D00830D55 /* NetworkNavigator */ = {
 			isa = PBXGroup;
 			children = (
-				6EF2F346193A779900DC322F /* SceneKit.framework */,
-				6E3411F8193A76650090BCE6 /* NetworkObjects.xcodeproj */,
-				6E3411ED193A76340090BCE6 /* NetworkSceneGraph.xcodeproj */,
-				6E3411B9193A75FF0090BCE6 /* Cocoa.framework */,
-				6E3411D8193A75FF0090BCE6 /* XCTest.framework */,
-				6E3411BB193A75FF0090BCE6 /* Other Frameworks */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6E3411BB193A75FF0090BCE6 /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6E3411BC193A75FF0090BCE6 /* AppKit.framework */,
-				6E3411BD193A75FF0090BCE6 /* CoreData.framework */,
-				6E3411BE193A75FF0090BCE6 /* Foundation.framework */,
-			);
-			name = "Other Frameworks";
-			sourceTree = "<group>";
-		};
-		6E3411BF193A75FF0090BCE6 /* NetworkNavigator */ = {
-			isa = PBXGroup;
-			children = (
-				6E3411CB193A75FF0090BCE6 /* NAVAppDelegate.h */,
-				6E3411CC193A75FF0090BCE6 /* NAVAppDelegate.m */,
-				6E3411CE193A75FF0090BCE6 /* MainMenu.xib */,
-				6EF2F355193A820000DC322F /* Controllers */,
-				6EF2F354193A81FA00DC322F /* Stores */,
-				6E3411D1193A75FF0090BCE6 /* Images.xcassets */,
-				6E3411C0193A75FF0090BCE6 /* Supporting Files */,
+				6E20B4C31942161D00830D55 /* ViewController.swift */,
+				6E20B4C51942161D00830D55 /* AppDelegate.swift */,
+				6E20B4C71942161D00830D55 /* Images.xcassets */,
+				6E20B4C91942161D00830D55 /* Main.storyboard */,
+				6E20B4E01942164600830D55 /* NetworkSceneGraph.xcodeproj */,
+				6E20B4BF1942161D00830D55 /* Supporting Files */,
 			);
 			path = NetworkNavigator;
 			sourceTree = "<group>";
 		};
-		6E3411C0193A75FF0090BCE6 /* Supporting Files */ = {
+		6E20B4BF1942161D00830D55 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6E34120E193A771A0090BCE6 /* NetworkNavigator.entitlements */,
-				6E3411C1193A75FF0090BCE6 /* NetworkNavigator-Info.plist */,
-				6E3411C2193A75FF0090BCE6 /* InfoPlist.strings */,
-				6E3411C5193A75FF0090BCE6 /* main.m */,
-				6E3411C7193A75FF0090BCE6 /* NetworkNavigator-Prefix.pch */,
-				6E3411C8193A75FF0090BCE6 /* Credits.rtf */,
+				6E20B4C01942161D00830D55 /* Info.plist */,
+				6E20B4C11942161D00830D55 /* main.swift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6E3411DD193A75FF0090BCE6 /* NetworkNavigatorTests */ = {
+		6E20B4D31942161D00830D55 /* NetworkNavigatorTests */ = {
 			isa = PBXGroup;
 			children = (
-				6E3411E3193A75FF0090BCE6 /* NetworkNavigatorTests.m */,
-				6E3411DE193A75FF0090BCE6 /* Supporting Files */,
+				6E20B4D61942161D00830D55 /* NetworkNavigatorTests.swift */,
+				6E20B4D41942161D00830D55 /* Supporting Files */,
 			);
 			path = NetworkNavigatorTests;
 			sourceTree = "<group>";
 		};
-		6E3411DE193A75FF0090BCE6 /* Supporting Files */ = {
+		6E20B4D41942161D00830D55 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6E3411DF193A75FF0090BCE6 /* NetworkNavigatorTests-Info.plist */,
-				6E3411E0193A75FF0090BCE6 /* InfoPlist.strings */,
+				6E20B4D51942161D00830D55 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6E3411F9193A76650090BCE6 /* Products */ = {
+		6E20B4E11942164600830D55 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6E341201193A76650090BCE6 /* NetworkObjects.framework */,
-				6E341203193A76650090BCE6 /* NetworkObjectsTests.xctest */,
-				6E341205193A76650090BCE6 /* libNetworkObjects.a */,
-				6E341207193A76650090BCE6 /* NetworkObjectsiOSTests.xctest */,
+				6E20B4E71942164600830D55 /* NetworkSceneGraph.framework */,
+				6E20B4E91942164600830D55 /* NetworkSceneGraphTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		6EF2F338193A774600DC322F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6EF2F341193A774600DC322F /* NetworkSceneGraph.framework */,
-				6EF2F343193A774600DC322F /* NetworkSceneGraphTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		6EF2F354193A81FA00DC322F /* Stores */ = {
-			isa = PBXGroup;
-			children = (
-				6EF2F351193A81B400DC322F /* NAVStore.h */,
-				6EF2F352193A81B400DC322F /* NAVStore.m */,
-			);
-			name = Stores;
-			sourceTree = "<group>";
-		};
-		6EF2F355193A820000DC322F /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				6EF2F356193AB67800DC322F /* NAVSceneViewController.h */,
-				6EF2F357193AB67800DC322F /* NAVSceneViewController.m */,
-				6EF2F358193AB67800DC322F /* NAVSceneViewController.xib */,
-			);
-			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6E3411B5193A75FF0090BCE6 /* NetworkNavigator */ = {
+		6E20B4BB1942161D00830D55 /* NetworkNavigator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6E3411E7193A75FF0090BCE6 /* Build configuration list for PBXNativeTarget "NetworkNavigator" */;
+			buildConfigurationList = 6E20B4DA1942161D00830D55 /* Build configuration list for PBXNativeTarget "NetworkNavigator" */;
 			buildPhases = (
-				6E3411B2193A75FF0090BCE6 /* Sources */,
-				6E3411B3193A75FF0090BCE6 /* Frameworks */,
-				6E3411B4193A75FF0090BCE6 /* Resources */,
-				6E341208193A76C00090BCE6 /* CopyFiles */,
+				6E20B4B81942161D00830D55 /* Sources */,
+				6E20B4B91942161D00830D55 /* Frameworks */,
+				6E20B4BA1942161D00830D55 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6EF2F34B193A77AA00DC322F /* PBXTargetDependency */,
-				6EF2F349193A77A700DC322F /* PBXTargetDependency */,
 			);
 			name = NetworkNavigator;
 			productName = NetworkNavigator;
-			productReference = 6E3411B6193A75FF0090BCE6 /* NetworkNavigator.app */;
+			productReference = 6E20B4BC1942161D00830D55 /* NetworkNavigator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6E3411D6193A75FF0090BCE6 /* NetworkNavigatorTests */ = {
+		6E20B4CF1942161D00830D55 /* NetworkNavigatorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6E3411EA193A75FF0090BCE6 /* Build configuration list for PBXNativeTarget "NetworkNavigatorTests" */;
+			buildConfigurationList = 6E20B4DD1942161D00830D55 /* Build configuration list for PBXNativeTarget "NetworkNavigatorTests" */;
 			buildPhases = (
-				6E3411D3193A75FF0090BCE6 /* Sources */,
-				6E3411D4193A75FF0090BCE6 /* Frameworks */,
-				6E3411D5193A75FF0090BCE6 /* Resources */,
+				6E20B4CC1942161D00830D55 /* Sources */,
+				6E20B4CD1942161D00830D55 /* Frameworks */,
+				6E20B4CE1942161D00830D55 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6E3411DC193A75FF0090BCE6 /* PBXTargetDependency */,
+				6E20B4D21942161D00830D55 /* PBXTargetDependency */,
 			);
 			name = NetworkNavigatorTests;
 			productName = NetworkNavigatorTests;
-			productReference = 6E3411D7193A75FF0090BCE6 /* NetworkNavigatorTests.xctest */;
+			productReference = 6E20B4D01942161D00830D55 /* NetworkNavigatorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6E3411AE193A75FF0090BCE6 /* Project object */ = {
+		6E20B4B41942161D00830D55 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = NAV;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = ColemanCDA;
 				TargetAttributes = {
-					6E3411B5193A75FF0090BCE6 = {
-						SystemCapabilities = {
-							com.apple.Sandbox = {
-								enabled = 1;
-							};
-						};
+					6E20B4BB1942161D00830D55 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 4W79SG34MW;
 					};
-					6E3411D6193A75FF0090BCE6 = {
-						TestTargetID = 6E3411B5193A75FF0090BCE6;
+					6E20B4CF1942161D00830D55 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 6E20B4BB1942161D00830D55;
 					};
 				};
 			};
-			buildConfigurationList = 6E3411B1193A75FF0090BCE6 /* Build configuration list for PBXProject "NetworkNavigator" */;
+			buildConfigurationList = 6E20B4B71942161D00830D55 /* Build configuration list for PBXProject "NetworkNavigator" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -360,172 +202,101 @@
 				en,
 				Base,
 			);
-			mainGroup = 6E3411AD193A75FF0090BCE6;
-			productRefGroup = 6E3411B7193A75FF0090BCE6 /* Products */;
+			mainGroup = 6E20B4B31942161D00830D55;
+			productRefGroup = 6E20B4BD1942161D00830D55 /* Products */;
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 6E3411F9193A76650090BCE6 /* Products */;
-					ProjectRef = 6E3411F8193A76650090BCE6 /* NetworkObjects.xcodeproj */;
-				},
-				{
-					ProductGroup = 6EF2F338193A774600DC322F /* Products */;
-					ProjectRef = 6E3411ED193A76340090BCE6 /* NetworkSceneGraph.xcodeproj */;
+					ProductGroup = 6E20B4E11942164600830D55 /* Products */;
+					ProjectRef = 6E20B4E01942164600830D55 /* NetworkSceneGraph.xcodeproj */;
 				},
 			);
 			projectRoot = "";
 			targets = (
-				6E3411B5193A75FF0090BCE6 /* NetworkNavigator */,
-				6E3411D6193A75FF0090BCE6 /* NetworkNavigatorTests */,
+				6E20B4BB1942161D00830D55 /* NetworkNavigator */,
+				6E20B4CF1942161D00830D55 /* NetworkNavigatorTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		6E341201193A76650090BCE6 /* NetworkObjects.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = NetworkObjects.framework;
-			remoteRef = 6E341200193A76650090BCE6 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6E341203193A76650090BCE6 /* NetworkObjectsTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = NetworkObjectsTests.xctest;
-			remoteRef = 6E341202193A76650090BCE6 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6E341205193A76650090BCE6 /* libNetworkObjects.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libNetworkObjects.a;
-			remoteRef = 6E341204193A76650090BCE6 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6E341207193A76650090BCE6 /* NetworkObjectsiOSTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = NetworkObjectsiOSTests.xctest;
-			remoteRef = 6E341206193A76650090BCE6 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6EF2F341193A774600DC322F /* NetworkSceneGraph.framework */ = {
+		6E20B4E71942164600830D55 /* NetworkSceneGraph.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = NetworkSceneGraph.framework;
-			remoteRef = 6EF2F340193A774600DC322F /* PBXContainerItemProxy */;
+			remoteRef = 6E20B4E61942164600830D55 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		6EF2F343193A774600DC322F /* NetworkSceneGraphTests.xctest */ = {
+		6E20B4E91942164600830D55 /* NetworkSceneGraphTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = NetworkSceneGraphTests.xctest;
-			remoteRef = 6EF2F342193A774600DC322F /* PBXContainerItemProxy */;
+			remoteRef = 6E20B4E81942164600830D55 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6E3411B4193A75FF0090BCE6 /* Resources */ = {
+		6E20B4BA1942161D00830D55 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E3411C4193A75FF0090BCE6 /* InfoPlist.strings in Resources */,
-				6EF2F35A193AB67800DC322F /* NAVSceneViewController.xib in Resources */,
-				6E3411D2193A75FF0090BCE6 /* Images.xcassets in Resources */,
-				6E3411CA193A75FF0090BCE6 /* Credits.rtf in Resources */,
-				6E3411D0193A75FF0090BCE6 /* MainMenu.xib in Resources */,
+				6E20B4C81942161D00830D55 /* Images.xcassets in Resources */,
+				6E20B4CB1942161D00830D55 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6E3411D5193A75FF0090BCE6 /* Resources */ = {
+		6E20B4CE1942161D00830D55 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E3411E2193A75FF0090BCE6 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6E3411B2193A75FF0090BCE6 /* Sources */ = {
+		6E20B4B81942161D00830D55 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E3411CD193A75FF0090BCE6 /* NAVAppDelegate.m in Sources */,
-				6EF2F359193AB67800DC322F /* NAVSceneViewController.m in Sources */,
-				6E3411C6193A75FF0090BCE6 /* main.m in Sources */,
-				6EF2F353193A81B400DC322F /* NAVStore.m in Sources */,
+				6E20B4C61942161D00830D55 /* AppDelegate.swift in Sources */,
+				6E20B4C41942161D00830D55 /* ViewController.swift in Sources */,
+				6E20B4C21942161D00830D55 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6E3411D3193A75FF0090BCE6 /* Sources */ = {
+		6E20B4CC1942161D00830D55 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E3411E4193A75FF0090BCE6 /* NetworkNavigatorTests.m in Sources */,
+				6E20B4D71942161D00830D55 /* NetworkNavigatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6E3411DC193A75FF0090BCE6 /* PBXTargetDependency */ = {
+		6E20B4D21942161D00830D55 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6E3411B5193A75FF0090BCE6 /* NetworkNavigator */;
-			targetProxy = 6E3411DB193A75FF0090BCE6 /* PBXContainerItemProxy */;
-		};
-		6EF2F349193A77A700DC322F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = NetworkObjects;
-			targetProxy = 6EF2F348193A77A700DC322F /* PBXContainerItemProxy */;
-		};
-		6EF2F34B193A77AA00DC322F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = NetworkSceneGraph;
-			targetProxy = 6EF2F34A193A77AA00DC322F /* PBXContainerItemProxy */;
+			target = 6E20B4BB1942161D00830D55 /* NetworkNavigator */;
+			targetProxy = 6E20B4D11942161D00830D55 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6E3411C2193A75FF0090BCE6 /* InfoPlist.strings */ = {
+		6E20B4C91942161D00830D55 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6E3411C3193A75FF0090BCE6 /* en */,
+				6E20B4CA1942161D00830D55 /* Base */,
 			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		6E3411C8193A75FF0090BCE6 /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6E3411C9193A75FF0090BCE6 /* en */,
-			);
-			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		6E3411CE193A75FF0090BCE6 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6E3411CF193A75FF0090BCE6 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		6E3411E0193A75FF0090BCE6 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6E3411E1193A75FF0090BCE6 /* en */,
-			);
-			name = InfoPlist.strings;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		6E3411E5193A75FF0090BCE6 /* Debug */ = {
+		6E20B4D81942161D00830D55 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -540,11 +311,13 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -557,13 +330,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				METAL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		6E3411E6193A75FF0090BCE6 /* Release */ = {
+		6E20B4D91942161D00830D55 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -578,64 +353,53 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				METAL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		6E3411E8193A75FF0090BCE6 /* Debug */ = {
+		6E20B4DB1942161D00830D55 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = NetworkNavigator/NetworkNavigator.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/NetworkNavigator-ciokbgrekeksbehdtsmlzkspbwan/Build/Products/Debug",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NetworkNavigator/NetworkNavigator-Prefix.pch";
-				INFOPLIST_FILE = "NetworkNavigator/NetworkNavigator-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				INFOPLIST_FILE = NetworkNavigator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		6E3411E9193A75FF0090BCE6 /* Release */ = {
+		6E20B4DC1942161D00830D55 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = NetworkNavigator/NetworkNavigator.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/NetworkNavigator-ciokbgrekeksbehdtsmlzkspbwan/Build/Products/Debug",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NetworkNavigator/NetworkNavigator-Prefix.pch";
-				INFOPLIST_FILE = "NetworkNavigator/NetworkNavigator-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				INFOPLIST_FILE = NetworkNavigator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
-		6E3411EB193A75FF0090BCE6 /* Debug */ = {
+		6E20B4DE1942161D00830D55 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NetworkNavigator.app/Contents/MacOS/NetworkNavigator";
@@ -644,20 +408,19 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NetworkNavigator/NetworkNavigator-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "NetworkNavigatorTests/NetworkNavigatorTests-Info.plist";
+				INFOPLIST_FILE = NetworkNavigatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
-		6E3411EC193A75FF0090BCE6 /* Release */ = {
+		6E20B4DF1942161D00830D55 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NetworkNavigator.app/Contents/MacOS/NetworkNavigator";
@@ -666,46 +429,43 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NetworkNavigator/NetworkNavigator-Prefix.pch";
-				INFOPLIST_FILE = "NetworkNavigatorTests/NetworkNavigatorTests-Info.plist";
+				INFOPLIST_FILE = NetworkNavigatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6E3411B1193A75FF0090BCE6 /* Build configuration list for PBXProject "NetworkNavigator" */ = {
+		6E20B4B71942161D00830D55 /* Build configuration list for PBXProject "NetworkNavigator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6E3411E5193A75FF0090BCE6 /* Debug */,
-				6E3411E6193A75FF0090BCE6 /* Release */,
+				6E20B4D81942161D00830D55 /* Debug */,
+				6E20B4D91942161D00830D55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6E3411E7193A75FF0090BCE6 /* Build configuration list for PBXNativeTarget "NetworkNavigator" */ = {
+		6E20B4DA1942161D00830D55 /* Build configuration list for PBXNativeTarget "NetworkNavigator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6E3411E8193A75FF0090BCE6 /* Debug */,
-				6E3411E9193A75FF0090BCE6 /* Release */,
+				6E20B4DB1942161D00830D55 /* Debug */,
+				6E20B4DC1942161D00830D55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		6E3411EA193A75FF0090BCE6 /* Build configuration list for PBXNativeTarget "NetworkNavigatorTests" */ = {
+		6E20B4DD1942161D00830D55 /* Build configuration list for PBXNativeTarget "NetworkNavigatorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6E3411EB193A75FF0090BCE6 /* Debug */,
-				6E3411EC193A75FF0090BCE6 /* Release */,
+				6E20B4DE1942161D00830D55 /* Debug */,
+				6E20B4DF1942161D00830D55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6E3411AE193A75FF0090BCE6 /* Project object */;
+	rootObject = 6E20B4B41942161D00830D55 /* Project object */;
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0510"
+   LastUpgradeVersion = "0600"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6E3411B5193A75FF0090BCE6"
+               BlueprintIdentifier = "6E20B4BB1942161D00830D55"
                BuildableName = "NetworkNavigator.app"
                BlueprintName = "NetworkNavigator"
                ReferencedContainer = "container:NetworkNavigator.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6E3411D6193A75FF0090BCE6"
+               BlueprintIdentifier = "6E20B4CF1942161D00830D55"
                BuildableName = "NetworkNavigatorTests.xctest"
                BlueprintName = "NetworkNavigatorTests"
                ReferencedContainer = "container:NetworkNavigator.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6E3411B5193A75FF0090BCE6"
+            BlueprintIdentifier = "6E20B4BB1942161D00830D55"
             BuildableName = "NetworkNavigator.app"
             BlueprintName = "NetworkNavigator"
             ReferencedContainer = "container:NetworkNavigator.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6E3411B5193A75FF0090BCE6"
+            BlueprintIdentifier = "6E20B4BB1942161D00830D55"
             BuildableName = "NetworkNavigator.app"
             BlueprintName = "NetworkNavigator"
             ReferencedContainer = "container:NetworkNavigator.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6E3411B5193A75FF0090BCE6"
+            BlueprintIdentifier = "6E20B4BB1942161D00830D55"
             BuildableName = "NetworkNavigator.app"
             BlueprintName = "NetworkNavigator"
             ReferencedContainer = "container:NetworkNavigator.xcodeproj">
