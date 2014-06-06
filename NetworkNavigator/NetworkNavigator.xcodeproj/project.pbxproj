@@ -456,6 +456,7 @@
 				6E20B4DC1942161D00830D55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E20B4DD1942161D00830D55 /* Build configuration list for PBXNativeTarget "NetworkNavigatorTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +465,7 @@
 				6E20B4DF1942161D00830D55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
